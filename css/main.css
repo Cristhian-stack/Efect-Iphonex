@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    position: relative;
+    margin-top: 220px;
+    width: 511px;
+    height: 265px;
+}
+
+.caja .screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.caja:hover img.screen.screen5 {
+    transform: translateY(-160px);
+    opacity: 1;
+}
+
+.caja:hover img.screen.screen4 {
+    transform: translateY(-120px);
+    opacity: .8;
+}
+
+.caja:hover img.screen.screen3 {
+    transform: translateY(-80px);
+    opacity: .6;
+}
+
+.caja:hover img.screen.screen2 {
+    transform: translateY(-40px);
+    opacity: .4;
+}
+
+.caja:hover img.screen.screen1 {
+    transform: translateY(0px);
+    opacity: .2;
+}
